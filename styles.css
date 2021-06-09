@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 20rem;
+    height: 100%;
+    border-right: solid 1px gray;
+}
+nav header {
+    font-size: 1.6rem;
+    padding: 2rem 2rem;
+}
+.nav-link {
+    display: block;
+    padding: 0.65rem 2rem;
+    border-top: solid 1px gray;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.nav-link:nth-last-child(1) {
+    border-bottom: solid 1px gray;
+}
+
+main {
+    margin-left: 20rem;
+    padding: 3rem;
+}
+main header {
+    font-size: 2rem;
+}
+
+.main-section {
+    padding: 1rem;
+}
+.main-section article {
+}
